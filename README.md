@@ -95,7 +95,7 @@ Eg :- `👋Hy {first}`
 
 `HOSTED` : If you want to deploy in tha Heroku, do not enter anything, If you want to deploy in the Railway app, enter `True`
 
-`OWNER_ID` : Bot Owner Id From [@MT_Id_Bot](https://telegram.dog/missrose_bot)
+`OWNER_ID` : Bot Owner Id From [rose bot](https://telegram.dog/missrose_bot)
 
 `WELCOME_TEXT` : Set Custom Welcome Message 
 
