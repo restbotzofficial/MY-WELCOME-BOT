@@ -1,0 +1,77 @@
+{
+    "name": "Auto Welcome Bot",
+    "description": "iam Id Bot @restbotzofficial",
+    "logo": "https://telegra.ph/file/29381f3f866da72425e62.jpg
+",
+    "keywords": [
+        "Telegram",
+        "Custom",
+        "Adv",
+        "Auto",
+        "Welcome", 
+        "Bot"
+    ],
+    "website": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
+    "repository": "https://github.com/PR0FESS0R-99/Auto-Welcome-Bot",
+    "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Your APP_Id",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API_Hash ",
+            "value": ""
+        },
+        "APP_NAME": {
+            "description": "Enter Heroku App Name",
+            "value": "autowelcomebot",
+            "required": false
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "HOSTED": {
+            "description": "Check readme.md file for more details (true)",
+            "value": "",
+            "required": false
+        },
+        "OWNER_ID": {
+            "description": "id from rose or any other bots",
+            "value": ""
+        },
+        "WELCOME_TEXT": {
+            "description": "Set Your Welcome Text More Information Check Out Readme.md",
+            "value": "",
+            "required": false
+        },
+        "WELCOME_BUTTON": {
+            "description": "Check readme.md file for more details (true)",
+            "value": "",
+            "required": false
+        },
+        "WELCOME_BUTTON_LINK": {
+            "description": "give your [private or Public] Channel or Group Link || you must use https://t.me or t.me Dont use @",
+            "value": "",
+            "required": false
+        },
+        "WELCOME_BUTTON_NAME": {
+            "description": "Give the button a name (eg:-JOIN NOW)",
+            "value": "",
+            "required": false
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
